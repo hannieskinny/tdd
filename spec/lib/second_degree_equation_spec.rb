@@ -8,9 +8,9 @@ describe 'Second degree Equation' do
   let(:variables) { @equation.variables }
 
   it 'Has a,b,c arguments' do
-    expect(a).to eql 1
-    expect(b).to eql 5
-    expect(c).to eql 6
+    expect(@equation.a).to eql 1
+    expect(@equation.b).to eql 5
+    expect(@equation.c).to eql 6
   end
 
   it 'Calculate square root' do
